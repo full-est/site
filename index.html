@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+    <title>Портфолио</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header__logo">Визитка</h1>
+            <strong>
+                <div class="header__menu">
+                    <button class="menu__btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                    <ul class="menu__list hide">
+                        <li class="menu__item">
+                        <a href="#info" class="menu__link">О себе</a>
+                        </li>
+                        <li class="menu__item">
+                        <a href="#portfolio" class="menu__link">Портфолио</a>
+                        </li>
+                    </ul>
+                </div>
+            </strong>
+        </div>
+        <div id="info">
+            <h2>О себе</h2>
+            <h3>Зубов Артем Алексеевич</h3>
+            <p>Мне 18 лет, учусь в МТУСИ, не работаю, не замужем, <strong>роад ту <a href="https://www.ign.com/wikis/valorant/Valorant_Ranks:_Ascendant,_Immortal,_Radiant_Explained" target="_blank" style="text-decoration: none"><b>иммортал</b></a>.</strong></p>
+            <hr>
+            <h3 id="socials">Социальные сети</h3>
+            <div>
+                <ul>
+                    <li><p>Telegram: <a href="https://t.me/full_estb" target =_blank>@full_estb</a></p></li>
+                    <li><p>Github: <a href="https://github.com/full-est" target=_blank>full-est</a></p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="portfolio" id="#portfolio">
+            <button class="portfolio__btn">Портфолио</button>
+            <div class='portfolio__img hide'>
+                <p><strong>Лабораторная работа №2</strong></p>
+                <img src='https://i.imgur.com/ro1j6ju.png' id="img1"/>
+                <img src='https://i.imgur.com/4ImBTPO.png' id="img2"/>
+            </div>
+        </div>
+    </div>
+    <script src="main1.js"></script>
+</body>
+</html>
